@@ -4,12 +4,12 @@ const Skills = () => {
   return (
     <section
       id="Skills"
-      className="w-[100rem] flex flex-col justify-center items-center pt-[6rem]"
+      className=" flex flex-col justify-center items-center pt-[6rem]"
     >
       <h1 className="text-center text-4xl font-bold leading-[1.5]">Skills</h1>
       <div className="grid grid-cols-2 gap-6">
         {skills.map((skills) => (
-          <div className="w-[30rem] h-auto border border-solid border-black mt-[2rem]">
+          <div className="w-[33rem] h-auto border-2 border-solid border-sky-500 mt-[2rem] py-4">
             <p className="text-center font-bold text-xl">{skills.title}</p>
             <div className="flex flex-wrap gap-4 p-3 justify-center">
               {skills.skills.map((skill) => (

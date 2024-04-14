@@ -6,7 +6,7 @@ const Intro = () => {
   return (
     <section
       id="Home"
-      className="flex flex-col justify-center items-center w-[100rem] relative pt-36"
+      className="flex flex-col justify-center items-center  relative pt-36"
     >
       <div className="w-[80rem] flex">
         <h1 className="text-4xl font-medium leading-[1.5] text-center">
