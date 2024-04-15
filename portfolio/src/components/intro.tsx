@@ -13,7 +13,7 @@ const Intro = () => {
           <span className="font-bold">Hello, I'm Aryan</span>. I'm a{" "}
           <span className="font-bold">Front End developer.</span>
         </h1>
-        <span className="flex items-center text-gray-800 text-xl font-light">
+        <span className="flex items-center text-gray-300 text-xl font-light">
           Experienced React.js developer with over 2.5 years of hands-on
           experience in building responsive web applications. Seeking to
           leverage expertise in React.js and related technologies to contribute
@@ -25,14 +25,18 @@ const Intro = () => {
         <a
           className="flex justify-center gap-2 text-white w-[12rem] py-4 rounded-full bg-slate-800"
           href="/CV.pdf"
+          target="blank"
         >
           Download CV
           <HiDownload style={{ width: "1.25rem", height: "1.5rem" }} />
         </a>
-        <a className="bg-white rounded-full p-4" href="https://linkedin.com">
+        <a
+          className="bg-slate-800 rounded-full p-4"
+          href="https://linkedin.com"
+        >
           <BsLinkedin style={{ width: "1.25rem", height: "1.5rem" }} />
         </a>
-        <a className="bg-white rounded-full p-4" href="https://github.com">
+        <a className="bg-slate-800 rounded-full p-4" href="https://github.com">
           <FaGithubSquare style={{ width: "1.25rem", height: "1.5rem" }} />
         </a>
       </div>
