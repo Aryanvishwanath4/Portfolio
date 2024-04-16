@@ -12,6 +12,15 @@ const config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
     },
+    screens: {
+      xs: "350",
+
+      sm: "640px",
+
+      md: "768px",
+
+      lg: "1024px",
+    },
   },
   plugins: [],
 };

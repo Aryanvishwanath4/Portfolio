@@ -6,9 +6,9 @@ const Intro = () => {
   return (
     <section
       id="Home"
-      className="flex flex-col justify-center items-center  relative pt-36"
+      className="w-auto flex flex-col justify-center items-center  relative md:pt-36 pt-[5rem]"
     >
-      <div className="w-[80rem] flex">
+      <div className="md:w-[80rem] flex md:flex-row flex-col">
         <h1 className="text-4xl font-medium leading-[1.5] text-center">
           <span className="font-bold text-gray-300">
             Hello, I'm Aryan. I'm a{" "}

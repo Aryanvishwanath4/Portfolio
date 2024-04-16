@@ -4,14 +4,14 @@ const Projects = () => {
   return (
     <section
       id="Projects"
-      className=" flex flex-col justify-center items-center pt-[6rem]"
+      className=" flex flex-col justify-center items-center md:pt-[6rem] pt-[5rem]"
     >
       <h1 className="text-center text-4xl font-bold leading-[1.5] text-gray-300">
         Projects
       </h1>
-      <div className="flex flex-wrap gap-6">
+      <div className="flex flex-wrap gap-6 justify-center">
         {projectsData.map((project) => (
-          <div className="w-[25rem] h-auto border-2 border-solid border-sky-500 shadow-inner shadow-sky-500 mt-[2rem] rounded-lg">
+          <div className="md:w-1/4 w-full h-auto border-2 border-solid border-sky-500 shadow-inner shadow-sky-500 mt-[2rem] rounded-lg">
             <div className="px-5 py-4">
               <p className="text-xl font-bold bg-gradient-to-br from-blue-800 via-indigo-500 to-purple-800 text-transparent bg-clip-text">
                 {project.title}
