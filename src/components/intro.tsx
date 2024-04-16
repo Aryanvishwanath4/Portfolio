@@ -8,7 +8,7 @@ const Intro = () => {
       id="Home"
       className="w-auto flex flex-col justify-center items-center  relative md:pt-36 pt-[5rem]"
     >
-      <div className="md:w-[80rem] flex md:flex-row flex-col">
+      <div className="md:w-5/6 w-full flex md:flex-row flex-col">
         <h1 className="text-4xl font-medium leading-[1.5] text-center">
           <span className="font-bold text-gray-300">
             Hello, I'm Aryan. I'm a{" "}
