@@ -17,7 +17,7 @@ const Intro = () => {
             Front End developer.
           </span>
         </h1>
-        <span className="flex items-center text-gray-300 text-xl font-light">
+        <span className="flex items-center text-gray-300 text-xl font-light ml-4">
           Experienced React.js developer with over 2.5 years of hands-on
           experience in building responsive web applications. Seeking to
           leverage expertise in React.js and related technologies to contribute
