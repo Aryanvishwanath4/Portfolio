@@ -41,7 +41,7 @@ export const projectsData = [
     title: "Money App",
     description: `Led the transformation of a legacy system into a modern, responsive React JS based
       website, enhancing overall performanceanduser experience.Conducted a comprehensive analysis of the existing codebase to identify legacy components and dependencies.Developed a migration strategy, breaking down the transition
-      into manageable phases to minimize downtime andensureasmoothtransition.`,
+      into manageable phases to minimize downtime and ensure a smooth transition.`,
     from: "Jan 2023",
     to: "Present",
     tags: [
@@ -58,8 +58,7 @@ export const projectsData = [
   {
     title: "TurnOver Dashboard",
     description: `The portal serves as a central hub for the database teams, providing them with the essentials
-      information and data.The dashboardactsasa valuable resource for the DB teams to manage and monitor their workflow
-      efficiently.`,
+      information and data.The dashboardactsasa valuable resource for the DB teams to manage and monitor their workflow efficiently.`,
     from: "Sept 2021",
     to: "Dec 2023",
     tags: [
