@@ -9,7 +9,7 @@ const Skills = () => {
       <h1 className="text-center text-4xl font-bold leading-[1.5] text-gray-300">
         Skills
       </h1>
-      <div className="grid grid-rows-2 md:grid-cols-2 gap-6 md:w-2/3 w-full">
+      <div className="grid grid-rows-1 md:grid-cols-2 gap-6 md:w-2/3 w-full">
         {skills.map((skills) => (
           <div className="w-full h-auto border-2 border-solid border-sky-500 shadow-inner shadow-sky-500 mt-[2rem] py-4 rounded-lg">
             <p className="text-center font-bold text-2xl bg-gradient-to-br from-blue-800 via-indigo-500 to-purple-800 text-transparent bg-clip-text">
