@@ -11,7 +11,7 @@ const Contact = () => {
         Please contact me directly at aryanvaryan16@gmail.com (this form is
         disabled).
       </p>
-      <div className="border border-solid border-black m-6 bg-slate-500 rounded-lg md:w-1/3 w-full">
+      <div className="border border-solid border-black m-6 bg-slate-500 rounded-lg md:w-1/2 w-full">
         <form className="p-6 flex flex-col gap-8">
           <input
             className="h-8 md:h-14 rounded-xl w-full p-2 bg-gray-300"
@@ -19,7 +19,7 @@ const Contact = () => {
             placeholder="Your email"
           />
           <textarea
-            className="max-h-screen md:min-h-[10rem] h-20 rounded-xl w-full p-2  bg-gray-300"
+            className="md:max-h-auto md:min-h-[10rem] min-h-[7rem] h-20 rounded-xl p-2  bg-gray-300"
             placeholder="Your Message"
           />
           <button
