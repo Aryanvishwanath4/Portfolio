@@ -15,7 +15,7 @@ const Header = () => {
               <Link
                 to={link.name}
                 className={clsx(
-                  "flex  items-center justify-center px-1 md:px-3 py-1 md:py-3 hover:text-gray-950 transition dark:text-gray-500 dark:hover:text-gray-300"
+                  "flex  items-center justify-center px-1 md:px-3 py-1 md:py-3 hover:text-gray-950 transition"
                 )}
                 smooth={true}
                 duration={500}
