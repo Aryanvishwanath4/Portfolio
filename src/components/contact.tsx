@@ -31,11 +31,9 @@ const Contact = () => {
         </form>
       </div>
       <footer className="flex flex-col text-center md:m-[5rem]">
-        <span>© 2030 Ricardo. All rights reserved.</span>
         <span>
-          About this website: built with React & Next.js (App Router & Server
-          Actions), TypeScript, Tailwind CSS, Framer Motion, React Email &
-          Resend, Vercel hosting
+          About this website: built with React & Next.js (App Router),
+          TypeScript, Tailwind CSS, Vercel hosting
         </span>
       </footer>
     </section>

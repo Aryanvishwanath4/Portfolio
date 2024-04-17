@@ -19,7 +19,9 @@ const Projects = () => {
               <p className="m-2 text-gray-500">
                 {project.from} - {project.to}
               </p>
-              {project.title === "PortFolio" && <img src="/Portfolio.png" />}
+              {project.title === "PortFolio" && (
+                <img src="/Portfolio.png" className="pb-4" />
+              )}
               <p className="text-gray-400">{project.description}</p>
 
               <div className="w-auto flex flex-wrap justify-center gap-2 p-3">
