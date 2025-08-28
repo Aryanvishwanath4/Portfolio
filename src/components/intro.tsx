@@ -1,8 +1,12 @@
+"use client";
+
+import { useEffect, useState } from "react";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub, FaGithubSquare } from "react-icons/fa";
 import { HiDownload } from "react-icons/hi";
 
 const Intro = () => {
+  const [experience, setExperience] = useState(0);
   function calculateExperienceInYears(
     startDate: any,
     currentDate = new Date()
@@ -13,33 +17,28 @@ const Intro = () => {
     let months = currentDate.getMonth() - start.getMonth();
     let days = currentDate.getDate() - start.getDate();
 
-    // Adjust for negative days
     if (days < 0) {
       months--;
       days += new Date(
         currentDate.getFullYear(),
         currentDate.getMonth(),
         0
-      ).getDate(); // Days in the previous month
+      ).getDate();
     }
 
-    // Adjust for negative months
     if (months < 0) {
       years--;
       months += 12;
     }
 
-    // Calculate total years with fractional part for months
     const totalYears = years + months / 12;
-
-    // Return result rounded to one decimal place
     return parseFloat(totalYears.toFixed(1));
   }
 
-  // Example usage in the console:
-  const startDate = "2021-06-01";
-  const customCurrentDate = new Date(); // Simulate any date
-  const experience = calculateExperienceInYears(startDate, customCurrentDate);
+  useEffect(() => {
+    const startDate = "2021-08-01";
+    setExperience(calculateExperienceInYears(startDate));
+  }, []);
 
   return (
     <section
